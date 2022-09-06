@@ -1,0 +1,43 @@
+/* Título */
+.titleSection{
+    padding-top: 10rem;
+}
+.titleSection__h1{
+    font-size: 8rem;
+    margin-bottom: 3rem;
+
+}
+.titleSection__p{
+    font-size: 4rem;
+    line-height: 4.5rem;
+    margin-bottom: 3rem;
+}
+.titleSection__button{
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+/* Servicios */
+
+.servicesSectionContainer__title{
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+.servicesSection{
+    grid-template-columns: repeat(4, minmax(min-content, 22rem));
+    grid-auto-rows: auto;
+}
+.servicesSection__item--video{
+    grid-area: 1 / 1 / 3 / 3 ;
+}
+
+/* Menu */
+
+.menuSection{
+    gap: 2rem;
+}
+.menuSectionContainer__title{
+    margin-top: 2rem;
+    font-size: 3rem;
+}

@@ -1,0 +1,72 @@
+.lineDecoration{
+    display: block;
+    position: fixed;
+    width: 2%;
+    height: 200%;
+    border-right: 2px solid var(--dark-yellow);
+}
+/* Título */
+.titleSectionContainer{
+    max-width: 1000%;
+    height: auto;
+    max-height: 80rem;
+    grid-template-columns: minmax(20rem, 50rem) minmax(20rem, 50rem);
+    justify-content: center;
+
+    background-image: none;
+
+}
+.titleSectionfigure{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.titleSectionfigure img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.titleSection{
+    width: 100%;
+    padding-left: 3rem;    
+}
+.titleSection__h1{
+    font-size: 5.5rem;
+
+}
+.titleSection__p{
+    font-size: 2.5rem;
+    line-height: 3.4rem;
+}
+.titleSection__button{
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+}
+
+/* Servicios */
+.servicesSectionContainer__title{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+.servicesSection{
+    grid-template-columns: repeat(2, 23);
+    grid-auto-rows: 23rem;
+    padding: 0 3rem;
+}
+.servicesSection__item--video{
+    grid-area: 1 / 1 / 3 / 3 ;
+}
+
+/* Menu */
+.menuSectionContainer__title{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+.menuSection figure:last-child{
+    display: inline-block;
+}
+.menuSection{
+    grid-template-columns: repeat(5, minmax(7rem, 15rem));
+    grid-template-rows: minmax(7rem, 15rem);
+    gap: 1rem;
+}
